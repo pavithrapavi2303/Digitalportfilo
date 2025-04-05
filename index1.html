@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pavithra Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('pavithra.jpg'); /* Add background image */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-position: center; /* Center the background image */
+            background-attachment: fixed; /* Fix the background while scrolling */
+            background-color: #e6f7ff; /* Fallback background color */
+        }
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #ffe6e6; /* Light pink background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+            margin-bottom: 20px;
+        }
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px; /* Square shape with rounded corners */
+            margin-right: 30px;
+            border: 3px solid #007BFF; /* Add a border to the photo */
+            object-fit: cover; /* Ensure the photo fits well */
+        }
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+        .email {
+            font-size: 16px;
+            color: #555;
+            margin-top: 5px;
+        }
+        .section {
+            background-color: #ffe6e6; /* Light pink background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #007BFF; /* Blue color for section titles */
+            margin-bottom: 15px;
+            text-transform: uppercase; /* Uppercase titles */
+        }
+        .projects {
+            background-color: #ffcccc; /* Slightly darker pink for projects */
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .projects a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .projects a:hover {
+            text-decoration: underline;
+        }
+        .skills-list, .languages-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .languages-list li {
+            background-color: #ffd9d9; /* Light pink for list items */
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #007BFF; /* Add a colored border */
+        }
+        .download-button {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+            padding: 12px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="Pavithra.jpg" alt="Profile Photo" class="profile-photo"> 
+            <div>
+                <div class="name">PAVITHRA</div>
+                <div class="email">pavithra.com</div>
+            </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="section">
+            <div class="section-title">About Me</div>
+            <p>I am a dedicated and passionate student pursuing my education in the field of computer science. I have a strong interest in learning new technologies and applying them to solve real-world problems. My current focus is on improving my skills in programming, web development, and data structures.</p>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <p><strong>TAGORE COLLEGE OF ARTS AND SCIENCE</strong> (2023-2026)</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <ul class="skills-list">
+                <li>C</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+                <li>Computer Architecture</li>
+                <li>Data Structures</li>
+                <li>Python</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <div class="section-title">Projects</div>
+            <div class="projects">
+                <p><a href="https://example.com/project1" target="_blank">Project 1: Web Development</a></p>
+                <p><a href="https://example.com/project2" target="_blank">Project 2: Data Structures</a></p>
+                <p><a href="https://example.com/project3" target="_blank">Project 3: Machine Learning Basics</a></p>
+                <p><a href="https://example.com/project4" target="_blank">Project 4: Mobile App Development</a></p>
+            </div>
+                  </div>
+
+        <!-- Languages Section -->
+        <div class="section">
+            <div class="section-title">Languages Known</div>
+            <ul class="languages-list">
+                <li>Tamil</li>
+                <li>English</li>
+            </ul>
+        </div>
+
+        <!-- Download Button -->
+        <a href="pavithra.png" class="download-button" download>Download Resume</a>
+    </div>
+</body>
+</html>
